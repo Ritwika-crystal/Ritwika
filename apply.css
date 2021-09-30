@@ -1,0 +1,38 @@
+.tile{
+    background-color: darkgoldenrod;
+}
+body{
+    background-color: seagreen;
+}
+p{
+    font-family: 'Noto Sans Display', sans-serif;
+    text-decoration: solid; 
+    
+}
+a{
+    text-decoration: none;
+}
+#images{
+    border : 2px;
+    display: inline-block;
+    padding: 20px;
+
+}
+/*.images{
+    /*display: inline-block;
+     
+    border: 2px solid green;
+}
+.images1{
+    display: inline-block;
+    padding: 16px;
+}*/
+.nav{
+    background-color: khaki;
+}
+#nav-bar{
+    text-align: center;
+    padding: 90px;
+    
+    font-size: xx-large;
+}
