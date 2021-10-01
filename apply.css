@@ -37,6 +37,7 @@ a{
     background-color: khaki;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
     
 }
@@ -44,8 +45,8 @@ a{
     text-align: center;
     box-sizing: border-box;
     border: 2px;
-    margin-right: 110px;
-    margin-left: 110px;
+    margin-right: 5%;
+    margin-left: 5%;
     
 
     
