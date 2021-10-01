@@ -22,8 +22,8 @@ a{
 #images{
     border : 2px;
     padding: 20px;
-    width: 30%;
-    height: 30%;
+    max-width: 20%;
+    height: auto;
 
 }
 .img{
