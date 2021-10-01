@@ -1,5 +1,11 @@
 .tile{
     background-color: darkgoldenrod;
+    background-image: url(./images/pexels-chan-walrus-941869.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    text-align: center;
+    font-size: xx-large;
+    
 }
 body{
     background-color: rgb(140, 190, 162);
@@ -52,11 +58,24 @@ a{
     display: inline-block green;
     
 }
-#foot{
-    border: 2px greenyellow;
-    
-}
+
 label{
     font-family: 'Noto Sans Display', sans-serif;
     text-decoration: solid; 
+}
+
+#name{
+    color: rgba(181, 36, 0, 1);
+}
+.log{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: larger;
+    text-decoration: none;
+}
+#logs{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: mediumblue;
+    font-family: 'Noto Sans Display', sans-serif;
 }
