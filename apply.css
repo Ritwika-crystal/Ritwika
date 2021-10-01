@@ -29,10 +29,34 @@ a{
 }*/
 .nav{
     background-color: khaki;
+    display: flex;
+    flex-direction: row;
+    
+    
 }
 #nav-bar{
     text-align: center;
-    padding: 90px;
+    box-sizing: border-box;
+    border: 2px;
+    margin-right: 110px;
+    margin-left: 110px;
+    
+
     
     font-size: xx-large;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    display: inline-block green;
+    
+}
+#foot{
+    border: 2px greenyellow;
+    
+}
+label{
+    font-family: 'Noto Sans Display', sans-serif;
+    text-decoration: solid; 
 }
