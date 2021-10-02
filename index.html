@@ -7,7 +7,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/9e6b24a4f3.js" crossorigin="anonymous"></script>
         <title>HOT BITES</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <i class="fas fa-hamburger"></i>
@@ -36,10 +35,10 @@
         <br>
         <br>
        <div class="nav">
-            <a href="index.html" id="nav-bar">Home</a>
-            <a href="order.html" target="_blank" id="nav-bar">Order food</a>
-            <a href="about.html" id="nav-bar">About</a>
-            <a href="contactus.html" id="nav-bar">Contact Us</a>
+            <a href="index.html">Home</a>
+            <a href="order.html" target="_blank">Order food</a>
+            <a href="about.html">About</a>
+            <a href="contactus.html">Contact Us</a>
        </div>
         
         
@@ -76,6 +75,47 @@
         <br>
         
         <div class="footer">
+            <form action="feedback.html">
+                <h3>Please provide your valuable feedback !</h3>
+                <br>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <br>
+                <h2>Your experience</h2>
+                <br>
+                <div>
+                    <label for="verygood">Very Good</label>
+                    <input type="radio" name="experience" id="verygood">
+
+                    <label for="good">Good</label>
+                    <input type="radio" name="experience" id="good">
+
+                    <label for="average">Average</label>
+                    <input type="radio" name="experience" id="average">
+
+                    <label for="bad">Bad</label>
+                    <input type="radio" name="experience" id="bad">
+
+                    <label for="verybad">Very Bad</label>
+                    <input type="radio" name="experience" id="verybad">
+                </div>
+                <br>
+                <textarea rows="4" cols="22" placeholder="Your feedback"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+                <br>
+                <br>
+                
+                
+
+            </form>
             
         </div>
         
