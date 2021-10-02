@@ -41,25 +41,27 @@ a{
     padding: 16px;
 }*/
 .nav{
+    width: 100%;
     background-color: khaki;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    float: left;
     
     
     
     
 }
 .nav a{
+    width: 25%;
+    padding: 12px;
     text-align: center;
-    box-sizing: border-box;
-    border: 2px;
-    margin-right: 5%;
-    margin-left: 5%;
+    float: left;
+    color: cornflowerblue;
     
 
     
     font-size: xx-large;
+}
+.nav a:hover{
+    background-color: darkgray;
 }
 .footer{
     text-align: center;
@@ -105,16 +107,26 @@ label{
         background-image: url(./images/pexels-chan-walrus-941869_edit.jpg);
         background-size: cover;
     }
+    .nav a{
+        width: 100%;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px){
     .tile{
         background-image: url(./images/pexels-chan-walrus-941869_edit.jpg);
         background-size: cover;
     }
+    .nav a{
+        width:50%;
+    }
+    
 }
 @media screen and (min-width: 1201px){
     .tile{
         background-image: url(./images/pexels-chan-walrus-941869_edit.jpg);
         background-size: cover;
+    }
+    .nav a{
+        width: 20%;
     }
 }
