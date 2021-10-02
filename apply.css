@@ -14,11 +14,11 @@ a{
     text-decoration: none;
 }
 
-#images{
-    border : 2px;
+img{
     padding: 20px;
-    max-width: 20%;
-    height: auto;
+    margin: 10px;
+    width: 20%;
+    
     
 
 }
@@ -26,8 +26,8 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid red;
     padding: 10px;
+    width: 100%;
     
     align-items: center;
 }
@@ -110,6 +110,9 @@ label{
     .nav a{
         width: 100%;
     }
+    img{
+        width: 100%;
+    };
 }
 @media screen and (min-width: 769px) and (max-width: 1200px){
     .tile{
@@ -119,7 +122,9 @@ label{
     .nav a{
         width:50%;
     }
-    
+    img{
+        width: 50%;
+    };
 }
 @media screen and (min-width: 1201px){
     .tile{
@@ -129,4 +134,7 @@ label{
     .nav a{
         width: 23.2%;
     }
+    img{
+        width: 20%;
+    };
 }
