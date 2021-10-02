@@ -1,6 +1,4 @@
 .tile{
-    background-image: url(./images/pexels-chan-walrus-941869_edit.jpg);
-    background-size: cover;
     text-align: center;
     font-size: xx-large;
     color: papayawhip;
@@ -101,4 +99,22 @@ label{
 .orders label{
     width: 10px;
     height: 10px;
+}
+@media screen and (max-width: 768px){
+    .tile{
+        background-image: url(./images/pexels-chan-walrus-941869_edit.jpg);
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    .tile{
+        background-image: url(./images/pexels-chan-walrus-941869_edit.jpg);
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 1201px){
+    .tile{
+        background-image: url(./images/pexels-chan-walrus-941869_edit.jpg);
+        background-size: cover;
+    }
 }
